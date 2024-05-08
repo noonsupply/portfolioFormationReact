@@ -1,0 +1,77 @@
+
+.title{
+    font-size: 4em;
+    color: #000;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+
+} ;
+
+.welcomeText{
+    font-size: 2em;
+    color: #ef1515;
+    text-align: left;
+} ;
+
+.btn {
+    color: white;
+    background-color: #007bff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0; 
+    text-transform: uppercase;
+    margin: 10px 0px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px lightgray;
+    transition: ease background-color 250ms;
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.name{
+    font-size: 1em;
+    color: #3552e6;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.homeContainer {
+    display: flex;
+    align-items: center; /* Align vertically */
+    justify-content: space-around; /* Space between text and image */
+    padding: 20px;
+}
+
+.textContent {
+    flex: 1; /* Allows text content to take the available space */
+    padding: 20px;
+}
+
+.photo {
+    border-radius: 50%; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20%;
+}
+
+@media (max-width: 768px) {
+    .homeContainer {
+        flex-direction: column; /* Stack vertically on small screens */
+        align-items: center; /* Center-align items for a small screen */
+    }
+    .photo {
+        margin-top: 20px; /* Add some margin at the top on small screens */
+    }
+}

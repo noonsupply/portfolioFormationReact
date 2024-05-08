@@ -1,0 +1,36 @@
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #88161c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font: 16px Arial, sans-serif;
+  }
+  
+  .nav li {
+    padding: 10px;
+    font-size: 16px;
+    color: #4a4a4a;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav li:hover {
+    color: #0275d8;
+  }
+  
